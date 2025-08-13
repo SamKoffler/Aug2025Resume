@@ -127,7 +127,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, C++, C, JavaScript/TypeScript, ARM Assembly, CSS} \\
-     \textbf{Developer Tools}{: Github, GitLab, VS Code, Visual Paradigm, Angular, AWS Bedrock, S3, Lambda} \\
+     \textbf{Developer Tools}{: Github, GitLab, VS Code, Visual Paradigm, Angular, CircleCI, AWS Bedrock, S3, Lambda} \\
      \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, React, React Native, Mongoose, DynamoDB}
     }}\\
  \end{itemize}
@@ -137,17 +137,19 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-  \resumeSubheading
-    {Software Engineering Intern}{May. 2025 -- Present}
-    {Rocket Mortgage}{Detroit, MI}
-  \resumeItemListStart
-    \resumeItem{Collaborated with a team of 8 to develop an internal productivity tool, \textbf{Synopsis}, used by 2000 bankers daily}
-    \resumeItem{Resolved data tracking issue where 30\% of of users weren't being identified, enabling more strategic decisions}
-    \resumeItem{Made 15+ UI and 5+ API code changes to Synopsis, increasing user's efficiency and resolving issues}
-    \resumeItem{Created an admin dashboard which allowed for testing and deployment of AI prompts used in Synopsis}
-    \resumeItem{Presented 3 times in front of 90 software engineers, demonstrating new AI technology our team is working with}
-    \resumeItem{Fixed access issues impacting 100+ Directors of Mortgage Banking, adhering to cybersecurity principles}
-  \resumeItemListEnd
+\resumeSubheading
+  {Software Engineering Intern}{May. 2025 -- Present}
+  {Rocket Mortgage}{Detroit, MI}
+\resumeItemListStart
+  \resumeItem{Partnered with a team of 8 to develop \textbf{Synopsis}, an internal productivity tool used by 2,000 bankers daily}
+  \resumeItem{Identified and fixed a data tracking flaw affecting 30\% of users, enabling accurate reporting and strategic insights}
+  \resumeItem{Delivered 15+ UI and 5+ API enhancements to Synopsis, streamlining workflows and resolving key issues}
+  \resumeItem{Developed an \textbf{admin dashboard} for testing and deploying AI prompts, accelerating feature iteration cycles}
+  \resumeItem{Demoed AI in the admin tool to 80 software engineers, influencing adoption of local prompt testing across teams}
+  \resumeItem{Resolved access issues impacting 100+ Directors of Mortgage Banking, aligning with cybersecurity standards}
+\resumeItemListEnd
+
+
 
   \resumeSubheading
     {Teaching Assistant for Python Programming 1}{Jan. 2025 -- Present}
