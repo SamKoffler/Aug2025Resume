@@ -1,0 +1,288 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Samuel Koffler} \\ \vspace{1pt}
+    \small 269-251-9883 $|$ \href{kofflers@msu.edu}{\underline{kofflers@msu.edu}} $|$ 
+    \href{https://www.linkedin.com/in/samuel-koffler/}{\underline{linkedin.com/in/samuel-koffler}} $|$
+    \href{https://github.com/SamKoffler}{\underline{github.com/SamKoffler}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Michigan State University}{East Lansing, MI}
+      {Bachelor of Science - Computer Science; GPA: 3.70}{Aug. 2022 -- May 2026}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, C, JavaScript/TypeScript, ARM Assembly, CSS} \\
+     \textbf{Developer Tools}{: Github, GitLab, VS Code, Visual Paradigm, Angular, AWS Bedrock, S3, Lambda} \\
+     \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, React, React Native, Mongoose, DynamoDB}
+    }}\\
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Software Engineering Intern}{May. 2025 -- Present}
+    {Rocket Mortgage}{Detroit, MI}
+  \resumeItemListStart
+    \resumeItem{Collaborated with a team of 8 to develop an internal productivity tool, \textbf{Synopsis}, used by 2000 bankers daily}
+    \resumeItem{Resolved data tracking issue where 30\% of of users weren't being identified, enabling more strategic decisions}
+    \resumeItem{Made 15+ UI and 5+ API code changes to Synopsis, increasing user's efficiency and resolving issues}
+    \resumeItem{Created an admin dashboard which allowed for testing and deployment of AI prompts used in Synopsis}
+    \resumeItem{Presented 3 times in front of 90 software engineers, demonstrating new AI technology our team is working with}
+    \resumeItem{Fixed access issues impacting 100+ Directors of Mortgage Banking, adhering to cybersecurity principles}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Teaching Assistant for Python Programming 1}{Jan. 2025 -- Present}
+    {Michigan State University}{East Lansing, MI}
+  \resumeItemListStart
+    \resumeItem{Teach two 2-hour lab sessions weekly, each with 50 students, covering course content and project assistance}
+    \resumeItem{Assist students in person with programming questions in help rooms and virtually on discussion forums}
+  \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Software Developer Contractor}{Dec. 2024 -- Jan. 2025}
+      {Kennel Geek}{Seymour, IN}
+      \resumeItemListStart
+        \resumeItem{Resolved 20+ React and back-end dependency issues, completing 4 project milestones in 3 weeks}
+        \resumeItem{Updated and restored the full stack of code by fixing code deprecations due to upgrading the database version.}
+      \resumeItemListEnd
+
+          \resumeSubheading
+      {Project Lead}{Aug. 2024 -- May 2025}
+      {Imagine Software}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Led a team of 5 in developing an innovative, proprietary full-stack Calorie Counter application}
+        \resumeItem{Encouraged test driven development to create an outline for a mobile app with React Native}
+      \resumeItemListEnd
+
+
+
+
+    % \resumeSubheading
+    %   {Server}{Aug. 2019 -- Sep. 2020}
+    %   {StoryPoint Senior Living Community}{Portage, MI}
+    %   \resumeItemListStart
+    %     \resumeItem{Made residents feel welcome with a warm and cheerful presence}
+    %     \resumeItem{Took orders, communicated with cooks and other servers, and served meals}
+    % \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\textbf{QuizMe for Amazon Alexa} $|$ \emph{Javascript, Amazon Developer Console, AWS Lambda, Gemini}}{Jan. 2024 -- Present}
+    \resumeItemListStart
+        \resumeItem{At \textbf{SpartaHack X Hackathon}, developed the first Alexa-integrated Quizlet adaptation, winning two awards—\textbf{Best Learning Tool Utilizing AI} and \textbf{Best Interactive Media}—totaling \$1000}
+        \resumeItem{Connected front-end adaptation to Developer Console, deploying the hardware connection with AWS Lambda}
+        \resumeItem{Integrated Gemini AI for user response interpretation, error handling, and answer validation}
+    \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Machine Learning Calorie Predictor} $|$ \emph{Python, TensorFlow, MobileNetV2, CNN}}{Sep. 2024 -- Dec. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed CNN using MobileNetV2 to predict calories from images, achieving 45-calorie Mean Absolute Error}
+            \resumeItem{Applied L2 regularization and data augmentation to reduce overfitting, improving performance gap by 25 calories}
+            \resumeItem{Collaborated with team of 6 to train model on MSU HPCC using V100 GPUs with 3,600 food images}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{GeoLocator} $|$ \emph{Groq, Boundary, Python, VS Code}}{Sep. 2024 -- Sep. 2024}
+          \resumeItemListStart
+            \resumeItem{At \textbf{MHacks 17 Hackathon}, worked with a group of 4 to create a program identifying the country and city from an image by leveraging AI analysis}
+            \resumeItem{Engineered the back-end development to input an image and output the most likely location using Boundary to decompress larger components into variables to optimize the OODA loop for Groq image recognition software}
+            \resumeItem{Achieved 80\% and 60\% accuracy from country and city recognition respectively from 50,000 Google Maps photos}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Binary Tree Generator} $|$ \emph{C++, CLion}}{Aug. 2024 -- Sep. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a user-customizable binary tree creator using skills learned from Data Structures and Algorithms course}
+            \resumeItem{Created interactive CLI for user input to generate binary tree visualizations using optimized sorting algorithms}
+          \resumeItemListEnd
+
+          
+      % \resumeProjectHeading
+      %     {\textbf{Link Tree} $|$ \emph{Python, CSS, Streamlit}}{July 2024 -- July 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Created a custom Linktree with user-interface through Streamlit services}
+      %       \resumeItem{Implemented code for URLs that branch to different socials}
+      %     \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\textbf{Wordle Word Recommender} $|$ \emph{Python, PyCharm}}{April 2024 -- April 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Built a program to help a user guess a Wordle word based on their game information}
+      %       \resumeItem{Optimized runtime by starting with word bank of 15,000 words, then siphoning the possible words each check}
+      %       \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\textbf{TicTacToe Game} $|$ \emph{Python, PyGame}}{April 2024 -- April 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Created a user-interface for a 2 player TicTactoe game through PyGame}
+      %       \resumeItem{Accepts user input through mouse clicks on the play screen, adding an "X" or "O" to the display accordingly}
+      %       \resumeItem{Coded all possibilities for win conditions and reset conditions}
+      %     \resumeItemListEnd
+
+          % \resumeProjectHeading
+          % {\textbf{AO MSU} $|$ \emph{MIT App Inventor}}{Sep. 2023 -- Nov. 2023}
+          % \resumeItemListStart
+          %   \resumeItem{Created an onboarding app for MSU students as a centralized hub for key campus resources and links}
+          %   \resumeItem{Conducted statistical analysis of user feedback surveys to identify areas for improvement, resulting in a 30\% increase in user satisfaction after making changes, gaining 20 active users during time of release}
+          % \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+% \section{Leadership Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
+%     }}\\
+
+%
+% %-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, C++, C, ARM Assembly, Linux} \\
+%      \textbf{Developer Tools}{: PyCharm, VS Code, CLion, Github, Doxygen, Android Studio, Visual Paradigm UML editor, Google Test} \\
+%      \textbf{Libraries}{: NumPy, SymPy, PyGame, Matplotlib, Pandas, Datetime}
+%     }}\\
+%      \textbf{Completed Courses}{: Data Structures and Algorithms(Python), System Organization and Architecture(C/Assembly), Matrix Algebra(Python), Discrete Math} \\
+%      \textbf{Enrolled Courses}{: Object-Oriented Software Development(C++), Computer Systems(C/C++), Probability and Statistics for Engineering(Python)} \\
+%  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
